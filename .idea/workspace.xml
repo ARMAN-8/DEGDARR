@@ -62,7 +62,7 @@
       <updated>1591597647391</updated>
       <workItem from="1591597648921" duration="1750000" />
       <workItem from="1591614952050" duration="609000" />
-      <workItem from="1591672528503" duration="9204000" />
+      <workItem from="1591672528503" duration="9555000" />
     </task>
     <task id="LOCAL-00001" summary="New little changes">
       <created>1591686057922</created>
@@ -71,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591686057922</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Farabi link added">
+      <created>1591688228926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591688228926</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Farabi link added">
+      <created>1591688305610</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591688305610</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,20 +93,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New little changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="New little changes" />
+    <MESSAGE value="Farabi link added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Farabi link added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1591688228376">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1591688305004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591688228376" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591688305004" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1591614788758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591614788758" />
-    <state x="361" y="128" key="Vcs.Push.Dialog.v2" timestamp="1591688230233">
+    <state x="361" y="128" key="Vcs.Push.Dialog.v2" timestamp="1591688308237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="128" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591688230233" />
+    <state x="361" y="128" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591688308237" />
   </component>
 </project>
