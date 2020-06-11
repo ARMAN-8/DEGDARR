@@ -25,53 +25,58 @@
         <a class="navbar-brand ownMenu font-weight-bold" href="#">DEGDARR</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
                 aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-align-right topText"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse ownMenu" id="navbarSupportedContent-333">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link ownMenu" href="#">BastyBet
+                    <a class="nav-link ownMenu" href="#" onclick="slowScroll('#mainPage')">
+                        BastyBet
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ownMenu" href="#">BіzTýraly</a>
+                    <a class="nav-link ownMenu" href="#" onclick="slowScroll('#aboutUs')">BіzTýraly</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ownMenu" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link ownMenu" href="#">Pricing</a>
+                    <a class="nav-link ownMenu" href="#" onclick="slowScroll('#portfolio')">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link ownMenu" href="#">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ownMenu" href="#">Baılanysý</a>
+                    <a class="nav-link ownMenu" href="#" onclick="slowScroll('#contact')">Baılanysý</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto nav-flex-icons">
                 <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light topText" href="" target="_blank">
+                    <a class="nav-link waves-effect waves-light topText" href="" target="_blank" title="Facebook">
                         <i class="fab fa-facebook-f"></i>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link waves-effect waves-light topText" href="https://www.instagram.com/degdarr/"
-                       target="_blank">
+                       target="_blank" title="Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light topText" href="" target="_blank">
+                    <a class="nav-link waves-effect waves-light topText" href="" target="_blank" title="Telegram">
                         <i class="fas fa-paper-plane"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light topText" href="tel:+77079820199">
+                        <i class="fas fa-phone green-text animated pulse infinite mr-3"></i>
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
     <!--/.Navbar -->
-    <section class="view intro">
+    <section id="mainPage" class="view intro">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center align-items-center h-100 mx-md-5">
                 <div class="col-lg-4 col-xl-5 col-flex mt-lg-0 pt-lg-4 mt-5 pt-5">
@@ -86,7 +91,7 @@
                         </strong>
                     </h5>
                     <div>
-                        <button class="btn purple-gradient bor_r_15">Tolyǵyraq</button>
+                        <button class="btn purple-gradient bor_r_15" onclick="slowScroll('#aboutUs')">Tolyǵyraq</button>
                     </div>
                 </div>
                 <div class="col-lg-8 col-xl-7 pt-lg-4">
@@ -99,14 +104,12 @@
     </section>
 </header>
 <main>
-    <section id="offer" class="pt-5 pb-5">
+    <section id="aboutUs" class="pt-5 pb-5">
         <div class="container">
             <h2 class="h1-responsive font-weight-bold text-center">Bіz usynatyn qyzmetter</h2>
             <hr class="w-25" style="border: 2px solid #8800ff;">
             <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis dolore hic, natus officiis
-                repudiandae tenetur! Asperiores ducimus iure odio officia! Asperiores at distinctio excepturi illum ipsa
-                iste itaque laborum minima nesciunt odio provident quis quo tempore, voluptate voluptatibus! Vero?
+                Bıznesіńіzdі Bіzben Bіrge Joǵary Deńgeıge Kóterіńіz! Bіz Sіzge Bıznesіńіzge Qajet Degen Qyzmetterdі Usynamyz
             </p>
             <div class="row mb-lg-0 mb-5">
                 <div class="col-lg-6 mb-lg-0 mb-5" style="margin-top: -5.3rem;">
@@ -118,10 +121,10 @@
                 <div class="col-lg-6">
                     <div class="row mb-3">
                         <div class="col-md-1 col-2">
-                            <i class="fas fa-laptop-code green-text fa-2x"></i>
+                            <i class="fas fa-laptop-code topText fa-2x"></i>
                         </div>
                         <div class="col-md-11 col-10">
-                            <h5 class="font-weight-bold green-text mb-2">1 Bettіk Saıt `Landing`</h5>
+                            <h5 class="font-weight-bold topText mb-2">1 Bettіk Saıt `Landing`</h5>
                             <p class="grey-text">
                                 Naqty usynys úshіn ázіrlengen bіr bettі saıt. Lendıngtіń negіzgі mіndetі-lıdterdі (naqty
                                 adamdardy) jınaý jáne kelýshіlerdі belsendі іs-áreketke, naqtyraq aıtqanda, satyp alý
@@ -131,24 +134,24 @@
                     </div>
                     <div class="row mb-3">
                         <div class="col-md-1 col-2">
-                            <i class="fab fa-html5 red-text fa-2x"></i>
+                            <i class="fas fa-code yellow-text fa-2x"></i>
                         </div>
                         <div class="col-md-11 col-10">
-                            <h5 class="font-weight-bold red-text mb-2">HTML5 Jarnama Bannerі</h5>
+                            <h5 class="font-weight-bold yellow-text mb-2">Sait Vızıtka</h5>
                             <p class="grey-text">
-                                Ikemdі, Ádemі HTML5 Jarnama Bannerlerіn Jasaýmen Aınalysamyz.
+                                Vızıtka saıttaryn tapsyrys bere alasyzdar
                             </p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-1 col-2">
-                            <i class="far fa-clock orange-pastel fa-2x"></i>
+                            <i class="fas fa-shopping-cart orange-pastel fa-2x"></i>
                         </div>
                         <div class="col-md-11 col-10">
-                            <h5 class="font-weight-bold orange-pastel mb-2">Access 24/7</h5>
-                            <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit
-                                maiores
-                                nam, aperiam minima elit assumenda voluptate velit.</p>
+                            <h5 class="font-weight-bold orange-pastel mb-2">Internet Magazın</h5>
+                            <p class="grey-text mb-0">
+                                Internet Magazın Tapsyrys Bere Alasyzdar
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -157,21 +160,21 @@
                 <div class="col-lg-6">
                     <div class="row mb-3">
                         <div class="col-md-1 col-2">
-                            <i class="fas fa-users fa-2x blue-pastel"></i>
+                            <i class="fab fa-android fa-2x green-text"></i>
                         </div>
                         <div class="col-md-11 col-10">
-                            <h5 class="font-weight-bold blue-pastel mb-2">Meeting rooms</h5>
-                            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit
-                                maiores nam,
-                                aperiam minima elit assumenda voluptate velit.</p>
+                            <h5 class="font-weight-bold green-text mb-2">Telegram Bot</h5>
+                            <p class="grey-text">
+                                Kázіrge Tańda Bıznestі Damytýdyń Túrlerі Kóp Sonyń Bіrі Qarapaıym Telegram Bot Tapsyrys Bere Alasyzdar
+                            </p>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col-md-1 col-2">
-                            <i class="fas fa-gem fa-2x pink-pastel"></i>
+                            <i class="fab fa-html5 fa-2x red-text"></i>
                         </div>
                         <div class="col-md-11 col-10">
-                            <h5 class="font-weight-bold pink-pastel mb-2">Flexible memberships</h5>
+                            <h5 class="font-weight-bold red-text mb-2">HTML5 Jarnama Bannerі</h5>
                             <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit
                                 maiores nam,
                                 aperiam minima elit assumenda voluptate velit.</p>
@@ -179,10 +182,10 @@
                     </div>
                     <div class="row mb-lg-0 mb-5">
                         <div class="col-md-1 col-2">
-                            <i class="fas fa-utensils fa-2x navy-blue-color"></i>
+                            <i class="fas fa-search-dollar fa-2x blue-text"></i>
                         </div>
                         <div class="col-md-11 col-10">
-                            <h5 class="font-weight-bold navy-blue-color mb-2">Kitchenettes</h5>
+                            <h5 class="font-weight-bold blue-text mb-2">Targettelgen Jarnama</h5>
                             <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit
                                 maiores
                                 nam, aperiam minima elit assumenda voluptate velit.</p>
@@ -203,7 +206,7 @@
             <h2 class="h1-responsive font-weight-bold text-center">
                 Why choose us
             </h2>
-            <hr class="text-purple my-3">
+            <hr class="w-25" style="border: 2px solid #8800ff;">
             <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">We open the first location of the Place
                 in
                 the center of Paris,
@@ -270,11 +273,11 @@
             </div>
         </div>
     </section>
-    <section>
-        <!--gallery-->
+    <section id="portfolio" class="portfolio pt-5 pb-5">
+        <!--gallery-or-portfolio-->
         <div class="container">
-            <h2 class="h1-responsive font-weight-bold text-center">Gallery</h2>
-            <hr class="hr-pink my-3">
+            <h2 class="h1-responsive font-weight-bold text-center">Portfolio</h2>
+            <hr class="w-25" style="border: 2px solid #8800ff;">
             <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">Duis aute irure dolor in reprehenderit
                 in
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -324,28 +327,36 @@
     <section id="contact" class="pt-5 pb-5">
         <div class="container">
             <h2 class="h1-responsive font-weight-bold text-center">Baılanysý</h2>
-            <hr class="hr-pink my-3">
-            <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit.</p>
+            <hr class="w-25" style="border: 2px solid #8800ff;">
+            <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">
+                Kerі baılanys alý úshіn tómendegі Esіmńіz, Elektrondy poshta, telefon nomer jáne habarlama bólіmderіn toltyryńyz!
+            </p>
             <div class="row">
                 <div class="col-lg-5 mb-lg-0 mb-4">
-                    <p class="text-center purple-pastel ml-lg-5"><strong>Make an appointment to get the best offer</strong>
+                    <p class="text-center purple-pastel ml-lg-5">
+                        <strong>
+                            Kerі baılanys úshіn tómendegі formany toltyryńyz...
+                        </strong>
                     </p>
                     <form class="text-center ml-lg-5">
                         <div class="md-form md-outline">
-                            <input type="text" id="materialContactFormName" class="form-control">
-                            <label for="materialContactFormName">Name</label>
+                            <input type="text" id="materialContactFormName" class="form-control bor_r_15">
+                            <label for="materialContactFormName">Esіmіńіz</label>
                         </div>
                         <div class="md-form md-outline">
-                            <input type="email" id="materialContactFormEmail" class="form-control">
+                            <input type="email" id="materialContactFormEmail" class="form-control bor_r_15">
                             <label for="materialContactFormEmail">E-mail</label>
                         </div>
                         <div class="md-form md-outline">
-                            <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-                            <label for="materialContactFormMessage">Message</label>
+                            <input type="email" id="phoneNumber" class="form-control bor_r_15">
+                            <label for="phoneNumber">Telefon nomerіńіz</label>
                         </div>
-                        <button class="btn btn-outline-purple btn-rounded btn-block z-depth-0 mx-0 my-4 waves-effect"
+                        <div class="md-form md-outline">
+                            <textarea id="materialContactFormMessage" class="form-control md-textarea bor_r_15"
+                                      rows="3"></textarea>
+                            <label for="materialContactFormMessage">Habarlama</label>
+                        </div>
+                        <button class="btn btn-outline-purple btn-rounded btn-block z-depth-0 mx-0 my-4 waves-effect bor_r_15   "
                                 type="submit">Jіberý
                         </button>
                     </form>
@@ -432,9 +443,9 @@
                 <p>
                     <i class="fas fa-home mr-3"></i> Almaty, KZ</p>
                 <p>
-                    <i class="fas fa-envelope mr-3"></i> degdarr@gmail.com</p>
+                    <i class="fas fa-envelope yellow-text animated pulse infinite mr-3"></i> degdarr@gmail.com</p>
                 <p>
-                    <i class="fas fa-phone mr-3"></i>
+                    <i class="fas fa-phone green-text animated pulse infinite mr-3"></i>
                     <a href="tel:+77079820199">
                         + 7(707) 982 0199
                     </a>
@@ -453,12 +464,19 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
+<script src="js/script.js"></script>
 <!-- Your custom scripts (optional) -->
 <script type="text/javascript">
-    // Tooltips Initialization
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
+    new WOW().init();
+
+    /*slowScroll*/
+    function slowScroll(id) {
+        var offset = 0;
+        $('html,body').animate({
+            scrollTop: $(id).offset().top - offset
+        }, 500);
+        return false;
+    }
 </script>
 
 </body>
