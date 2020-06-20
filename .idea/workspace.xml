@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4da3a5-37bc-4f04-9ee8-1f41fbb5a02a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -71,7 +70,8 @@
       <workItem from="1591597648921" duration="1750000" />
       <workItem from="1591614952050" duration="609000" />
       <workItem from="1591672528503" duration="24337000" />
-      <workItem from="1591781885693" duration="4829000" />
+      <workItem from="1591781885693" duration="5617000" />
+      <workItem from="1591955090269" duration="5436000" />
     </task>
     <task id="LOCAL-00001" summary="New little changes">
       <created>1591686057922</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591775319280</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First normal changes">
+      <created>1591877185020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591877185020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,20 +140,21 @@
     <MESSAGE value="Farabi link added" />
     <MESSAGE value="test link for cpanel" />
     <MESSAGE value="phone number changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="phone number changed" />
+    <MESSAGE value="First normal changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="First normal changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1591775318733">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1591877184436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591775318733" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591877184436" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1591873453342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591873453342" />
-    <state x="361" y="128" key="Vcs.Push.Dialog.v2" timestamp="1591775321989">
+    <state x="361" y="128" key="Vcs.Push.Dialog.v2" timestamp="1591877187185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="128" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591775321989" />
+    <state x="361" y="128" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591877187185" />
   </component>
 </project>
