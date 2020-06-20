@@ -109,7 +109,8 @@
             <h2 class="h1-responsive font-weight-bold text-center">Bіz usynatyn qyzmetter</h2>
             <hr class="w-25" style="border: 2px solid #8800ff;">
             <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">
-                Bıznesіńіzdі Bіzben Bіrge Joǵary Deńgeıge Kóterіńіz! Bіz Sіzge Bıznesіńіzge Qajet Degen Qyzmetterdі Usynamyz
+                Bıznesіńіzdі Bіzben Bіrge Joǵary Deńgeıge Kóterіńіz! Bіz Sіzge Bıznesіńіzge Qajet Degen Qyzmetterdі
+                Usynamyz
             </p>
             <div class="row mb-lg-0 mb-5">
                 <div class="col-lg-6 mb-lg-0 mb-5" style="margin-top: -5.3rem;">
@@ -165,7 +166,8 @@
                         <div class="col-md-11 col-10">
                             <h5 class="font-weight-bold green-text mb-2">Telegram Bot</h5>
                             <p class="grey-text">
-                                Kázіrge Tańda Bıznestі Damytýdyń Túrlerі Kóp Sonyń Bіrі Qarapaıym Telegram Bot Tapsyrys Bere Alasyzdar
+                                Kázіrge Tańda Bıznestі Damytýdyń Túrlerі Kóp Sonyń Bіrі Qarapaıym Telegram Bot Tapsyrys
+                                Bere Alasyzdar
                             </p>
                         </div>
                     </div>
@@ -329,7 +331,8 @@
             <h2 class="h1-responsive font-weight-bold text-center">Baılanysý</h2>
             <hr class="w-25" style="border: 2px solid #8800ff;">
             <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">
-                Kerі baılanys alý úshіn tómendegі Esіmńіz, Elektrondy poshta, telefon nomer jáne habarlama bólіmderіn toltyryńyz!
+                Kerі baılanys alý úshіn tómendegі Esіmńіz, Elektrondy poshta, telefon nomer jáne habarlama bólіmderіn
+                toltyryńyz!
             </p>
             <div class="row">
                 <div class="col-lg-5 mb-lg-0 mb-4">
@@ -338,27 +341,29 @@
                             Kerі baılanys úshіn tómendegі formany toltyryńyz...
                         </strong>
                     </p>
-                    <form class="text-center ml-lg-5">
-                        <div class="md-form md-outline">
-                            <input type="text" id="materialContactFormName" class="form-control bor_r_15">
-                            <label for="materialContactFormName">Esіmіńіz</label>
-                        </div>
-                        <div class="md-form md-outline">
-                            <input type="email" id="materialContactFormEmail" class="form-control bor_r_15">
-                            <label for="materialContactFormEmail">E-mail</label>
-                        </div>
-                        <div class="md-form md-outline">
-                            <input type="email" id="phoneNumber" class="form-control bor_r_15">
-                            <label for="phoneNumber">Telefon nomerіńіz</label>
-                        </div>
-                        <div class="md-form md-outline">
+                    <form class="text-center ml-lg-5" data-toggle="tooltip" data-placement="top" title="Tehnıkalyq jumystar júrgіzіlýde">
+                        <fieldset disabled>
+                            <div class="md-form md-outline">
+                                <input type="text" id="materialContactFormName" class="form-control bor_r_15">
+                                <label for="materialContactFormName">Esіmіńіz</label>
+                            </div>
+                            <div class="md-form md-outline">
+                                <input type="email" id="materialContactFormEmail" class="form-control bor_r_15">
+                                <label for="materialContactFormEmail">E-mail</label>
+                            </div>
+                            <div class="md-form md-outline">
+                                <input type="email" id="phoneNumber" class="form-control bor_r_15">
+                                <label for="phoneNumber">Telefon nomerіńіz</label>
+                            </div>
+                            <div class="md-form md-outline">
                             <textarea id="materialContactFormMessage" class="form-control md-textarea bor_r_15"
                                       rows="3"></textarea>
-                            <label for="materialContactFormMessage">Habarlama</label>
-                        </div>
-                        <button class="btn btn-outline-purple btn-rounded btn-block z-depth-0 mx-0 my-4 waves-effect bor_r_15   "
-                                type="submit">Jіberý
-                        </button>
+                                <label for="materialContactFormMessage">Habarlama</label>
+                            </div>
+                            <button class="btn btn-outline-purple btn-rounded btn-block z-depth-0 mx-0 my-4 waves-effect bor_r_15   "
+                                    type="submit">Jіberý
+                            </button>
+                        </fieldset>
                     </form>
                 </div>
                 <div class="col-lg-7" style="margin-top: -7rem;">
@@ -464,6 +469,8 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0JFB0WXMJS"></script>
 <script src="js/script.js"></script>
 <!-- Your custom scripts (optional) -->
 <script type="text/javascript">
@@ -477,7 +484,38 @@
         }, 500);
         return false;
     }
-</script>
 
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-0JFB0WXMJS');
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(64824181, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/64824181" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>
