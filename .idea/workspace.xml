@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a4da3a5-37bc-4f04-9ee8-1f41fbb5a02a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exclusive-templates/unlock-exclusive-freebies.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/RED" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -72,6 +72,7 @@
       <workItem from="1591672528503" duration="24337000" />
       <workItem from="1591781885693" duration="5617000" />
       <workItem from="1591955090269" duration="5436000" />
+      <workItem from="1617165067630" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="New little changes">
       <created>1591686057922</created>
