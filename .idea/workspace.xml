@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a4da3a5-37bc-4f04-9ee8-1f41fbb5a02a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1a4da3a5-37bc-4f04-9ee8-1f41fbb5a02a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +80,7 @@
       <workItem from="1591955090269" duration="5436000" />
       <workItem from="1617165067630" duration="17000" />
       <workItem from="1617165103579" duration="294000" />
-      <workItem from="1631108997062" duration="3045000" />
+      <workItem from="1631108997062" duration="3359000" />
     </task>
     <task id="LOCAL-00001" summary="New little changes">
       <created>1591686057922</created>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631113667919</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new changes text changed form english to cyrillic">
+      <created>1631114531646</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631114531646</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +189,7 @@
     <MESSAGE value="added new thanks page" />
     <MESSAGE value="new telegram bot form" />
     <MESSAGE value="last changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="last changes" />
+    <MESSAGE value="new changes text changed form english to cyrillic" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes text changed form english to cyrillic" />
   </component>
 </project>
