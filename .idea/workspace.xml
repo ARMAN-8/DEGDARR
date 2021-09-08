@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a4da3a5-37bc-4f04-9ee8-1f41fbb5a02a" name="Default Changelist" comment="added new thanks page">
-      <change afterPath="$PROJECT_DIR$/telegram.php" afterDir="false" />
+    <list default="true" id="1a4da3a5-37bc-4f04-9ee8-1f41fbb5a02a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -84,7 +83,7 @@
       <workItem from="1591955090269" duration="5436000" />
       <workItem from="1617165067630" duration="17000" />
       <workItem from="1617165103579" duration="294000" />
-      <workItem from="1631108997062" duration="2082000" />
+      <workItem from="1631108997062" duration="3045000" />
     </task>
     <task id="LOCAL-00001" summary="New little changes">
       <created>1591686057922</created>
@@ -156,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631113042037</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new telegram bot form">
+      <created>1631113372524</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631113372524</updated>
+    </task>
+    <task id="LOCAL-00012" summary="last changes">
+      <created>1631113667919</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631113667919</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +183,8 @@
     <MESSAGE value="First normal changes" />
     <MESSAGE value="little fixes" />
     <MESSAGE value="added new thanks page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new thanks page" />
+    <MESSAGE value="new telegram bot form" />
+    <MESSAGE value="last changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="last changes" />
   </component>
 </project>
