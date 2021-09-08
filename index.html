@@ -328,42 +328,38 @@
     <!--contact-->
     <section id="contact" class="pt-5 pb-5">
         <div class="container">
-            <h2 class="h1-responsive font-weight-bold text-center">Baılanysý</h2>
+            <h2 class="h1-responsive font-weight-bold text-center">Байланысу</h2>
             <hr class="w-25" style="border: 2px solid #8800ff;">
             <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">
-                Kerі baılanys alý úshіn tómendegі Esіmńіz, Elektrondy poshta, telefon nomer jáne habarlama bólіmderіn
-                toltyryńyz!
+                Кері байланыс алу үшін төмендегі есіміңіз, электронды поштаңыз,
+                телефон номер жәні хабарлама бөлімдерін толтырыңыз
             </p>
             <div class="row">
                 <div class="col-lg-5 mb-lg-0 mb-4">
                     <p class="text-center purple-pastel ml-lg-5">
-                        <strong>
-                            Kerі baılanys úshіn tómendegі formany toltyryńyz...
-                        </strong>
+                        <strong>Кері байланыс үшін төмендегі форманы толтырыңыз</strong>
                     </p>
-                    <form class="text-center ml-lg-5" data-toggle="tooltip" data-placement="top" title="Tehnıkalyq jumystar júrgіzіlýde">
-                        <fieldset disabled>
-                            <div class="md-form md-outline">
-                                <input type="text" id="materialContactFormName" class="form-control bor_r_15">
-                                <label for="materialContactFormName">Esіmіńіz</label>
-                            </div>
-                            <div class="md-form md-outline">
-                                <input type="email" id="materialContactFormEmail" class="form-control bor_r_15">
-                                <label for="materialContactFormEmail">E-mail</label>
-                            </div>
-                            <div class="md-form md-outline">
-                                <input type="email" id="phoneNumber" class="form-control bor_r_15">
-                                <label for="phoneNumber">Telefon nomerіńіz</label>
-                            </div>
-                            <div class="md-form md-outline">
+                    <form action="telegram.php" method="post" class="text-center ml-lg-5">
+                        <div class="md-form md-outline">
+                            <input type="text" id="materialContactFormName" name="name" class="form-control bor_r_15">
+                            <label for="materialContactFormName">Есіміңіз</label>
+                        </div>
+                        <div class="md-form md-outline">
+                            <input type="email" id="materialContactFormEmail" class="form-control bor_r_15" name="email">
+                            <label for="materialContactFormEmail">E-mail</label>
+                        </div>
+                        <div class="md-form md-outline">
+                            <input type="email" id="phoneNumber" class="form-control bor_r_15" name="phone">
+                            <label for="phoneNumber">Телефон номер</label>
+                        </div>
+                        <div class="md-form md-outline">
                             <textarea id="materialContactFormMessage" class="form-control md-textarea bor_r_15"
-                                      rows="3"></textarea>
-                                <label for="materialContactFormMessage">Habarlama</label>
-                            </div>
-                            <button class="btn btn-outline-purple btn-rounded btn-block z-depth-0 mx-0 my-4 waves-effect bor_r_15   "
-                                    type="submit">Jіberý
-                            </button>
-                        </fieldset>
+                                      rows="3" name="msg"></textarea>
+                            <label for="materialContactFormMessage">Хабарлама</label>
+                        </div>
+                        <button class="btn btn-outline-purple btn-rounded btn-block z-depth-0 mx-0 my-4 waves-effect bor_r_15   "
+                                type="submit">Жіберу
+                        </button>
                     </form>
                 </div>
                 <div class="col-lg-7" style="margin-top: -7rem;">
@@ -383,7 +379,7 @@
         <div class="container">
             <div class="row py-4 d-flex align-items-center">
                 <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                    <h6 class="mb-0">Bіzben áleýmettіk jelіlerde baılanys ornatyńyz!</h6>
+                    <h6 class="mb-0">Бізбен әлеуметтік желілерде байланыс орнатыңыз</h6>
                 </div>
                 <div class="col-md-6 col-lg-7 text-center text-md-right">
                     <!-- Facebook -->
@@ -452,14 +448,14 @@
                 <p>
                     <i class="fas fa-phone green-text animated pulse infinite mr-3"></i>
                     <a href="tel:+77079820199">
-                        + 7(707) 982 0199
+                        + 7(775) 569 6488
                     </a>
                 </p>
             </div>
         </div>
     </div>
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://degdarr.biz"> DEGDARR</a>
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="https://degdarr.kz"> DEGDARR</a>
     </div>
 </footer>
 <script type="text/javascript" src="js/jquery.min.js"></script>
