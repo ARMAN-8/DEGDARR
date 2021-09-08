@@ -80,7 +80,7 @@
       <workItem from="1591955090269" duration="5436000" />
       <workItem from="1617165067630" duration="17000" />
       <workItem from="1617165103579" duration="294000" />
-      <workItem from="1631108997062" duration="3359000" />
+      <workItem from="1631108997062" duration="3679000" />
     </task>
     <task id="LOCAL-00001" summary="New little changes">
       <created>1591686057922</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631114531646</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="little fixes">
+      <created>1631114935568</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631114935568</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,11 +192,11 @@
     <MESSAGE value="test link for cpanel" />
     <MESSAGE value="phone number changed" />
     <MESSAGE value="First normal changes" />
-    <MESSAGE value="little fixes" />
     <MESSAGE value="added new thanks page" />
     <MESSAGE value="new telegram bot form" />
     <MESSAGE value="last changes" />
     <MESSAGE value="new changes text changed form english to cyrillic" />
-    <option name="LAST_COMMIT_MESSAGE" value="new changes text changed form english to cyrillic" />
+    <MESSAGE value="little fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="little fixes" />
   </component>
 </project>
